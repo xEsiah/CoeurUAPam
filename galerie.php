@@ -13,7 +13,7 @@
 <body>
     <?php include_once('includes/header.php'); ?>
     <h1>Bienvenue sur la galerie photo des événements organisés par Coeur UA PAM.</h1>
-    <a class="nosLiens" href="nosLiens.php">Retrouvez tous nos réseaux-sociaux</a>
+    <a class="nosLiens" href="/nosLiens/">Retrouvez tous nos réseaux-sociaux</a>
     <?php include_once('includes/footer.php'); ?>
 </body>
 
