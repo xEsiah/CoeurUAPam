@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include_once('/includes/header.php'); ?>
+    <?php include_once('includes/header.php'); ?>
     <h1>Ici retrouvez prochainement tous nos liens</h1>
     <?php include_once('includes/footer.php'); ?>
 </body>

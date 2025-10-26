@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <?php include_once('..//includes/header.php'); ?>
+    <?php include_once('../includes/header.php'); ?>
     <h1>Page d'erreur</h1>
     <a class="nosLiens" href="nosLiens.php">Retrouvez tous nos réseaux-sociaux</a>
     <?php include_once('../includes/footer.php'); ?>
