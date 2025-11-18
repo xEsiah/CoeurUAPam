@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# Ajoute un slash final si absent (sauf fichiers/dossiers réels)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)$ /$1/ [R=301,L]
+
+# Redirige /nompage/ vers /nompage.php si le fichier existe
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/$ $1.php [L,QSA]
+
+# Routes d'erreurs
+ErrorDocument 400 /errors/error.php?c=400
+ErrorDocument 401 /errors/error.php?c=401
+ErrorDocument 403 /errors/error.php?c=403
+ErrorDocument 404 /errors/error.php?c=404
+ErrorDocument 500 /errors/error.php?c=500
+
+# Blocage des scans WordPress & autres exploits connus
+RedirectMatch 403 ^/(wp-admin|wordpress/wp-admin|wp-login\.php|xmlrpc\.php|setup-config\.php)

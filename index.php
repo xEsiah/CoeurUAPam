@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html>
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Accueil | Coeur UA PAM</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <?php include_once('includes/links.html'); ?>
-    <script src='main.js'></script>
-</head>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define( 'WP_USE_THEMES', true );
 
-<body>
-    <?php include_once('includes/header.php'); ?>
-    <h1>Bienvenue sur le site de Coeur UA PAM</h1>
-    <a class="nosLiens" href="/nosLiens/">Retrouvez tous nos réseaux-sociaux</a>
-    <?php include_once('includes/footer.php'); ?>
-</body>
-
-</html>
+/** Loads the WordPress Environment and Template */
+require __DIR__ . '/wp-blog-header.php';
