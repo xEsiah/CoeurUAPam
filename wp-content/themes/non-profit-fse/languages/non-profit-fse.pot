@@ -1,0 +1,451 @@
+# Copyright (C) 2025 ThemeIsle
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: NonProfitFSE\n"
+"Report-Msgid-Bugs-To: https://github.com/Codeinwp/non-profit-fse/issues\n"
+"Last-Translator: friends@themeisle.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-30T12:09:28+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: non-profit-fse\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Non Profit FSE"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://github.com/Codeinwp/non-profit-fse/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Non Profit FSE is a purpose-built Full Site Editing WordPress theme for charities and non-profit organizations making a difference. Create a powerful charity website with ready-to-use patterns for campaigns, donations, impact stories, and team members. The theme includes mobile-optimized layouts, call-to-action sections, and integrated donation features."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "ThemeIsle"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://themeisle.com"
+msgstr ""
+
+#. translators: %s message to upgrade PHP to the latest version
+#: functions.php:53
+#, php-format
+msgid "Hey, we've noticed that you're running an outdated version of PHP which is no longer supported. Make sure your site is fast and secure, by %1$s. Non Profit FSE's minimal requirement is PHP%2$s."
+msgstr ""
+
+#: functions.php:57
+msgid "upgrading PHP to the latest version"
+msgstr ""
+
+#. translators: %s: commands to run the theme
+#: functions.php:106
+#, php-format
+msgid "You appear to be running the Non Profit FSE theme from source code. Please finish installation by running %s."
+msgstr ""
+
+#: inc/Admin.php:99
+msgid "Activating"
+msgstr ""
+
+#: inc/Admin.php:100
+msgid "Installing"
+msgstr ""
+
+#: inc/Admin.php:101
+msgid "Done"
+msgstr ""
+
+#. translators: %s: 🎉 emoji
+#: inc/Admin.php:114
+#, php-format
+msgid "Accept Donations on Your Non-Profit Site %s"
+msgstr ""
+
+#. translators: %s: WP Full Pay
+#: inc/Admin.php:119
+#, php-format
+msgid "Start Collecting Funds with %s!"
+msgstr ""
+
+#: inc/Admin.php:123
+msgid "The simplest way to accept donations and payments on your WordPress site. Set up in minutes with no technical knowledge required."
+msgstr ""
+
+#: inc/Admin.php:124
+msgid "Quick setup"
+msgstr ""
+
+#: inc/Admin.php:124
+msgid "Connect to Stripe and create your first donation form in minutes"
+msgstr ""
+
+#: inc/Admin.php:125
+msgid "Multiple payment options"
+msgstr ""
+
+#: inc/Admin.php:125
+msgid "One-time and recurring donations with customizable amounts"
+msgstr ""
+
+#. translators: %s: WP Full Pay
+#: inc/Admin.php:135
+#, php-format
+msgid "Activate %s"
+msgstr ""
+
+#. translators: %s: WP Full Pay
+#: inc/Admin.php:137
+#, php-format
+msgid "Install & Activate %s"
+msgstr ""
+
+#: inc/Admin.php:142
+msgid "Learn More"
+msgstr ""
+
+#: inc/Admin.php:150
+msgid "WP Full Pay preview"
+msgstr ""
+
+#. translators: %1$s - plugin name, %2$s - HTML tag, %3$s - discount.
+#: inc/Admin.php:295
+#, php-format
+msgid "Need to accept payments or donations? Try %1$s, built by the same team as your theme — now up to %2$s OFF, for a limited time only."
+msgstr ""
+
+#: inc/Block_Patterns.php:63
+msgid "Non Profit FSE Patterns"
+msgstr ""
+
+#: inc/Block_Patterns.php:64
+msgid "Patterns for several sections and components"
+msgstr ""
+
+#: inc/Block_Patterns.php:67
+msgid "Non Profit FSE Layouts"
+msgstr ""
+
+#: inc/Block_Patterns.php:68
+msgid "Full-page layouts that can be used as templates"
+msgstr ""
+
+#: inc/Core.php:88
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/patterns/layout/404.php:20
+msgid "404"
+msgstr ""
+
+#: inc/patterns/layout/campaign.php:20
+msgid "Campaigns"
+msgstr ""
+
+#: inc/patterns/layout/content-2.php:20
+msgid "Content 2"
+msgstr ""
+
+#: inc/patterns/layout/content-3.php:16
+msgid "Content 3"
+msgstr ""
+
+#: inc/patterns/layout/content-4.php:21
+msgid "Content 4"
+msgstr ""
+
+#: inc/patterns/layout/content.php:20
+msgid "Content"
+msgstr ""
+
+#: inc/patterns/layout/CTA.php:20
+msgid "Call to Action"
+msgstr ""
+
+#: inc/patterns/layout/events-2.php:21
+msgid "Events 2"
+msgstr ""
+
+#: inc/patterns/layout/events.php:22
+msgid "Events"
+msgstr ""
+
+#: inc/patterns/layout/faq.php:16
+msgid "FAQ"
+msgstr ""
+
+#: inc/patterns/layout/features-2.php:18
+msgid "Features 2"
+msgstr ""
+
+#: inc/patterns/layout/features.php:22
+msgid "Features"
+msgstr ""
+
+#: inc/patterns/layout/hero.php:20
+msgid "Hero Cover"
+msgstr ""
+
+#: inc/patterns/layout/stats.php:18
+msgid "stats"
+msgstr ""
+
+#: inc/patterns/layout/testimonials-2.php:18
+msgid "Testimonials 2"
+msgstr ""
+
+#: inc/patterns/layout/testimonials.php:18
+msgid "Testimonials"
+msgstr ""
+
+#: inc/patterns/loops/post-loop-1.php:16
+msgid "Posts loop 1"
+msgstr ""
+
+#: inc/patterns/loops/post-loop-2.php:16
+msgid "Posts loop 2"
+msgstr ""
+
+#: inc/patterns/page_titles/page-title-1.php:16
+msgid "Page Title - Simple"
+msgstr ""
+
+#: inc/patterns/page_titles/page-title-2.php:16
+msgid "Page Title - Dark"
+msgstr ""
+
+#: inc/patterns/page_titles/page-title-3.php:16
+msgid "Page Title - Light"
+msgstr ""
+
+#: inc/patterns/page_titles/page-title-4.php:20
+msgid "Page Title - Cover"
+msgstr ""
+
+#: inc/patterns/templates/archive-cover.php:16
+msgid "Archive Cover"
+msgstr ""
+
+#: inc/patterns/templates/archive-list.php:16
+msgid "Archive List"
+msgstr ""
+
+#: inc/patterns/templates/single-post-cover-boxed.php:16
+msgid "Single Post 2 (Cover Boxed)"
+msgstr ""
+
+#: inc/patterns/templates/single-post-cover.php:16
+msgid "Single Post 3 (Cover)"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Accent Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Background Dark"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Background Alt"
+msgstr ""
+
+#: theme.json
+#: styles/s1-dark-paw.json
+#: styles/s2-funk-cloud.json
+#: styles/s3-impact.json
+msgctxt "Color name"
+msgid "Foreground Alt"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Albert Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Fraunces"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Hanken Grotesk"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Spline Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Playfair Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Sans Pro"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Open Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header Variation - Centered"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header Variation - Button"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header Variation - Hamburger Menu"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer Variation - Site Logo"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer Variation - 3 Columns"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer Variation - 4 Columns"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer Variation - 5 Columns"
+msgstr ""
+
+#: styles/s1-dark-paw.json
+msgctxt "Style variation name"
+msgid "Dark Paw"
+msgstr ""
+
+#: styles/s2-funk-cloud.json
+msgctxt "Style variation name"
+msgid "Funk Cloud"
+msgstr ""
+
+#: styles/s3-impact.json
+msgctxt "Style variation name"
+msgid "Impact"
+msgstr ""
