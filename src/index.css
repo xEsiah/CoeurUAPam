@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a247f;
+  --color-blue-accent: #0e1449;
+  --color-site-text: #242424;
+  --color-heading: #470b15;
+  --color-heading-accent: #751424;
+  --color-bg-1: #f7f0e5;
+  --color-bg-2: #f1e6d3;
+  --color-hover-nav: #dfbe85;
+  --color-bg-carousel: #d3c1a5;
+}
+
+/* On définit nos composants sans @apply sur des classes custom */
+@layer components {
+  .side-pattern-container {
+    @apply w-20 md:w-32 bg-white relative overflow-hidden border-l border-gray-200 shadow-inner shrink-0;
+  }
+
+  /* On met le background-image directement ici sans passer par une autre classe */
+  .side-pattern-image {
+    @apply absolute inset-0 opacity-90;
+    background-image: url("/bandeau.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+  }
+
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+}
+
+body {
+  @apply bg-bg-1 text-site-text;
+  margin: 0;
+  font-family:
+    "Montserrat", sans-serif; /* Pense à l'importer dans index.html */
+}

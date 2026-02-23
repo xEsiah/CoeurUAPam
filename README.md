@@ -1,41 +1,47 @@
-# 🇺🇦 Coeur UA PAM — Site de l’Association des Ukrainiens de Pont-à-Mousson
+# 🇺🇦 Coeur UA PAM — Application Web de l’Association
 
-**Coeur UA PAM** est le site officiel de l’association *Cœur UA Pont-à-Mousson*, destinée à soutenir la communauté ukrainienne locale, promouvoir la culture ukrainienne et partager les actions solidaires menées dans la région.
+**Coeur UA PAM** est la plateforme web moderne de l’association _Cœur UA Pont-à-Mousson_. Cette nouvelle version migre de WordPress vers une architecture **React** pour offrir une expérience plus fluide, rapide et sécurisée.
 
-Ce dépôt contient les fichiers du site web public :   
-👉 https://coeur-ua-pam.fr 
+👉 Site officiel : [coeur-ua-pam.fr](https://coeur-ua-pam.fr)
 
 ---
 
-## ✨ Fonctionnalités du site
+## ✨ Fonctionnalités
 
-- Présentation de l’association et de ses missions  
-- Actualités et événements liés à la communauté ukrainienne  
-- Informations utiles pour les familles accueillies  
-- Mise en avant des actions humanitaires locales  
-- Galerie d’images et ressources culturelles  
-- Formulaire de contact  
-- Site responsive adapté aux mobiles
+- ⚡ **Performance optimisée** : Navigation instantanée grâce au typage Single Page Application (SPA).
+- 📱 **Mobile First** : Interface entièrement responsive et pensée pour l'accessibilité.
+- 🎨 **UI Moderne** : Composants sur mesure pour la mise en avant des actions humanitaires.
+- 🌍 **Culture & Solidarité** : Espace dédié à l'histoire et aux ressources ukrainiennes.
 
 ---
 
 ## 🏗️ Stack technique
 
-Le site repose sur :
-
-- **WordPress** (CMS principal)
-- **Thème : Hello Elementor**
-- **Page Builder : Elementor Free**
-- **Plugins clés :**
-  - Essential Addons for Elementor  
-  - Royal Addons  
-  - UAE / Header-Footer Builder  
-  - LiteSpeed Cache
+- **Framework** : [React.js](https://reactjs.org/)
+- **Outil de build** : [Vite.js](https://vitejs.dev/) (pour la rapidité de développement)
+- **Styling** : [Tailwind CSS](https://tailwindcss.com/) (recommandé pour remplacer Elementor)
+- **Routage** : React Router
+- **Déploiement** : Vercel / Netlify (conseillé)
 
 ---
 
-## 📄 Licence
+## 🚀 Installation & Développement
 
-Code spécifique au site sous licence MIT.  
-WordPress et plugins restent sous leurs licences respectives (GPLv2+).
+**Cloner le projet** :
 
+```bash
+git clone https://github.com/xEsiah/CoeurUAPam.git
+cd CoeurUAPam
+```
+
+**Installer les dépendances** :
+
+```
+npm install
+```
+
+**Lancer le serveur de développement** :
+
+```
+npm run dev
+```
