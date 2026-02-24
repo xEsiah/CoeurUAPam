@@ -36,7 +36,7 @@ const Home = () => {
                 Nos Événements
               </Link>
               <a
-                href="https://www.helloasso.com"
+                href="https://www.leetchi.com/fr/c/coeur-ua-pam-6398197?utm_source=copylink&utm_medium=social_sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 rounded-full bg-heading text-white font-bold uppercase tracking-wider hover:bg-heading-accent transition-all shadow-lg"
@@ -49,9 +49,7 @@ const Home = () => {
       </AnimatedContent>
 
       {/* --- BENTO GRID NAVIGATION --- */}
-      {/* Une grille moderne pour présenter les sections clés */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
-        {/* CARTE 1 : Historique (Prend 1 colonne) */}
         <div className="md:col-span-1">
           <AnimatedContent
             distance={30}

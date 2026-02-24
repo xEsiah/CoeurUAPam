@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="a-propos" element={<About />} />
           <Route path="evenements" element={<Events />} />
-          <Route path="historique" element={<Historic />} />
+          <Route path="notre-histoire" element={<Historic />} />
         </Route>
       </Routes>
     </BrowserRouter>

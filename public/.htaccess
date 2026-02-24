@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Empêcher les boucles infinies sur index.html
+  RewriteRule ^index\.html$ - [L]
+
+  # Si le fichier ou le dossier n'existe pas physiquement
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # On redirige vers index.html (sans le slash devant index pour plus de compatibilité)
+  RewriteRule . index.html [L]
+</IfModule>
