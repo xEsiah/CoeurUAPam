@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Events from "./pages/Events";
 import Historic from "./pages/Historic";
+import Privacy from "./pages/Privacy";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="a-propos" element={<About />} />
           <Route path="evenements" element={<Events />} />
           <Route path="notre-histoire" element={<Historic />} />
+          <Route path="politique-confidentialite" element={<Privacy />} />
         </Route>
       </Routes>
     </BrowserRouter>

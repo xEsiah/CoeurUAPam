@@ -131,7 +131,7 @@ const Historic = () => {
           </Stepper>
         ) : (
           /* MESSAGE DE FIN (Remplace le Stepper une fois terminé) */
-          <div className="relative w-full py-24 md:py-32 text-center border-y border-primary/20 overflow-hidden rounded-[30px] shadow-xl">
+          <div className="relative w-full py-24 md:py-32 text-center border-y border-primary/20 overflow-hidden  shadow-xl">
             <div
               className="absolute inset-0 w-full h-full bg-cover bg-center"
               style={{

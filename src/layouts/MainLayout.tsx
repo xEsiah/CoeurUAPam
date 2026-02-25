@@ -66,6 +66,12 @@ export const MainLayout = () => {
             <div className="text-xs text-primary/50 font-medium">
               © {new Date().getFullYear()} — Tous droits réservés.
             </div>
+            <a
+              href="/politique-confidentialite"
+              className="text-[10px] text-primary/40 hover:text-primary mt-1 transition-colors underline"
+            >
+              Politique de confidentialité
+            </a>
           </div>
 
           {/* Contact & Réseaux */}
