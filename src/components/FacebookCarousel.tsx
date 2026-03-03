@@ -17,7 +17,7 @@ const mockPosts: FacebookPost[] = [
     date: "Il y a 2 jours",
     content:
       "Un immense merci aux bénévoles présents ce matin pour la préparation des 50 nouveaux colis à destination de l'Ukraine ! 🌻📦",
-    imageSrc: "/historique/pam-aerien.jpg", // Mets une vraie image de test
+    imageSrc: "/historique/pam-aerien.webp", // Mets une vraie image de test
     link: "https://www.facebook.com",
   },
   {
@@ -25,7 +25,7 @@ const mockPosts: FacebookPost[] = [
     date: "La semaine dernière",
     content:
       "Retour en images sur notre superbe atelier de peinture traditionnelle de Pâques (Pysanka). Merci aux enfants pour leur créativité ! 🎨",
-    imageSrc: "/historique/premier-evenement.jpg",
+    imageSrc: "/historique/premier-evenement.webp",
     link: "https://www.facebook.com",
   },
   {
@@ -33,7 +33,7 @@ const mockPosts: FacebookPost[] = [
     date: "Il y a 2 semaines",
     content:
       "Le camion est bien arrivé ! La génératrice a pu être livrée à l'hôpital de Kharkiv. Merci à tous nos donateurs. 💙💛",
-    imageSrc: "/historique/dernier-evenement.jpg",
+    imageSrc: "/historique/dernier-evenement.webp",
     link: "https://www.facebook.com",
   },
 ];

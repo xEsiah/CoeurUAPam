@@ -4,20 +4,16 @@ import AnimatedContent from "../components/AnimatedContent";
 const Home = () => {
   return (
     <div className="w-full pb-20">
-      {/* --- HERO SECTION --- */}
-      <AnimatedContent distance={50} direction="vertical" duration={1}>
+      <AnimatedContent distance={60} direction="vertical" duration={1}>
         <div className="relative w-full h-[80vh] min-h-150  overflow-hidden mb-12 shadow-2xl group">
-          {/* Image de fond avec effet de zoom lent au survol */}
           <img
-            src="/hero-section/accueil.jpg"
+            src="/hero-section/accueil.webp"
             alt="Accueil Association"
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-[10s] ease-linear group-hover:scale-105"
           />
 
-          {/* Gradient Overlay pour lisibilité */}
           <div className="absolute inset-0 bg-linear-to-t from-primary/90 via-primary/40 to-transparent"></div>
 
-          {/* Contenu Hero */}
           <div className="absolute bottom-0 left-0 w-full p-8 md:p-16 flex flex-col items-start">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-none tracking-tight">
               Unir. Aider. <br />
@@ -92,7 +88,7 @@ const Home = () => {
             <Link to="/evenements" className="block h-full group">
               <div className="relative h-full min-h-100  overflow-hidden shadow-lg">
                 <img
-                  src="/home/nos-grands-rdv.jpg"
+                  src="/home/nos-grands-rdv.webp"
                   alt="Événement à la une"
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />

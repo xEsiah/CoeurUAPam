@@ -2,41 +2,36 @@ import AnimatedContent from "../components/AnimatedContent";
 
 const About = () => {
   return (
-    <div className="w-full pb-20">
-      {/* SECTION 1 : HERO IMAGE (Inspiré du bloc avec la tortue) */}
+    <div className="w-full pb-20 flex flex-col gap-16 md:gap-24">
       <AnimatedContent distance={60} direction="vertical" duration={1}>
-        <div className="relative w-full h-[70vh] min-h-125  overflow-hidden mb-24 shadow-2xl">
-          {/* Image Placeholder */}
+        <div className="relative w-full h-[80vh] min-h-125 overflow-hidden shadow-2xl group">
           <img
-            src="/hero-section/a-propos.jpg"
+            src="/hero-section/a-propos.webp"
             alt="Association Coeur UA PAM"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-[10s] ease-linear group-hover:scale-105"
           />
-          {/* Overlay sombre pour lire le texte */}
-          <div className="absolute inset-0 bg-black/50"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-primary/90 via-primary/40 to-transparent"></div>
 
-          {/* Contenu textuel positionné en bas */}
-          <div className="absolute bottom-0 left-0 w-full p-8 md:p-16">
-            <div className="max-w-4xl">
-              <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-                Solidarité, Culture <br /> et Entraide.
-              </h1>
-              <p className="text-xl md:text-2xl text-white/90 font-light max-w-2xl leading-relaxed">
-                Née d'une volonté forte de rassembler et d'agir, l'association{" "}
-                <strong className="font-semibold text-hover-nav">
-                  Cœur UA PAM
-                </strong>{" "}
-                a pour vocation de faire vivre la culture ukrainienne et
-                d'apporter un soutien vital à ceux qui en ont besoin.
-              </p>
-            </div>
+          <div className="absolute bottom-0 left-0 w-full p-8 md:p-16 flex flex-col items-start">
+            <span className="inline-block px-4 py-1 rounded-full bg-hover-nav text-primary font-bold uppercase tracking-widest mb-4">
+              à propos
+            </span>
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+              Solidarité, Culture <br /> et Entraide.
+            </h1>
+            <p className="text-xl md:text-2xl text-white/90 font-light max-w-2xl leading-relaxed">
+              Née d'une volonté forte de rassembler et d'agir, l'association{" "}
+              <strong className="font-semibold text-hover-nav">
+                Cœur UA PAM
+              </strong>{" "}
+              a pour vocation de faire vivre la culture ukrainienne et
+              d'apporter un soutien vital à ceux qui en ont besoin.
+            </p>
           </div>
         </div>
       </AnimatedContent>
 
-      {/* SECTION 2 : SPLIT BLOCK (Inspiré du bloc Beige/Blanc avec les pourcentages) */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0  overflow-hidden mb-24 shadow-xl">
-        {/* Moitié Gauche : Bloc de couleur unie (Beige) */}
         <div className="bg-bg-2 p-12 md:p-20 flex flex-col justify-center">
           <AnimatedContent
             distance={40}
@@ -55,7 +50,6 @@ const About = () => {
           </AnimatedContent>
         </div>
 
-        {/* Moitié Droite : Bloc Blanc avec les points clés très aérés */}
         <div className="bg-white p-12 md:p-20 flex flex-col justify-center gap-12">
           <AnimatedContent
             distance={30}
@@ -120,7 +114,6 @@ const About = () => {
         </div>
       </div>
 
-      {/* SECTION 3 : FOCUS SUR LA CAGNOTTE / ACTION DIRECTE (Image à gauche, texte à droite) */}
       <AnimatedContent
         distance={50}
         direction="vertical"
@@ -130,13 +123,12 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="h-100  overflow-hidden shadow-lg">
             <img
-              src="/a-propos/solidarite.jpg"
+              src="/a-propos/solidarite.webp"
               alt="Préparation de colis"
               className="w-full h-full object-cover object-top"
             />
           </div>
 
-          {/* Texte Action */}
           <div className="px-4 lg:px-12">
             <h2 className="text-4xl font-bold text-heading mb-6">
               Une chaîne de solidarité active

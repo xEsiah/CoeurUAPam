@@ -42,13 +42,10 @@ const Historic = () => {
 
   return (
     <div className="w-full pb-20 flex flex-col gap-16 md:gap-24">
-      {/* =======================
-          SECTION HERO 
-      ========================*/}
-      <AnimatedContent distance={50} direction="vertical" duration={1}>
+      <AnimatedContent distance={60} direction="vertical" duration={1}>
         <div className="relative w-full h-[80vh] min-h-125 overflow-hidden shadow-2xl group">
           <img
-            src="/hero-section/historique.jpg"
+            src="/hero-section/historique.webp"
             alt="Historique Association"
             className="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-[10s] ease-linear group-hover:scale-105"
           />
@@ -61,7 +58,7 @@ const Historic = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               D'une urgence <br /> à une association unie
             </h1>
-            <p className="text-xl text-white/90 max-w-2xl font-light leading-relaxed">
+            <p className="text-xl md:text-2xl text-white/90 font-light max-w-2xl leading-relaxed">
               Découvrez comment Cœur UA PAM est née d'un élan de solidarité
               spontané pour devenir un véritable pont culturel et humanitaire.
             </p>
@@ -88,7 +85,7 @@ const Historic = () => {
                 date="Mars 2022"
                 title="L'arrivée en France"
                 text="Suite au déclenchement du conflit, les premières familles ukrainiennes arrivent dans notre région. Un élan de solidarité local se met immédiatement en place pour les accueillir, les loger et répondre à l'urgence de la situation."
-                imageSrc="/historique/arrivee.jpg"
+                imageSrc="/historique/arrivee.webp"
               />
             </Step>
 
@@ -98,7 +95,7 @@ const Historic = () => {
                 date="Octobre 2022"
                 title="Les premiers événements"
                 text="Très vite, le besoin de se retrouver et de partager se fait ressentir. Des bénévoles français et ukrainiens organisent les premiers rassemblements, des collectes de dons et des moments d'échange pour apaiser les cœurs."
-                imageSrc="/historique/premier-evenement.jpg"
+                imageSrc="/historique/premier-evenement.webp"
               />
             </Step>
 
@@ -108,7 +105,7 @@ const Historic = () => {
                 date="19 juin 2025"
                 title="La création officielle"
                 text="Pour structurer nos actions éducatives (apprentissage du français, maintien de l'ukrainien pour les enfants) et amplifier nos envois humanitaires, nous fondons officiellement l'association Cœur UA PAM."
-                imageSrc="/historique/signature-statuts.jpg"
+                imageSrc="/historique/signature-statuts.webp"
               >
                 <div className="border-l-4 border-hover-nav pl-6 mb-2 bg-white/10 p-4 rounded-r-xl backdrop-blur-sm max-w-2xl">
                   <p className="text-white font-bold italic text-xl">
@@ -125,7 +122,7 @@ const Historic = () => {
                 date="Aujourd'hui"
                 title="Un pont entre deux pays"
                 text="Aujourd'hui, l'association est un véritable carrefour culturel. Nous continuons sans relâche nos actions : ateliers pour enfants, événements culturels grand public (Octobre Rose, Noël), et logistique d'envoi de colis pour les combattants ukrainiens."
-                imageSrc="/historique/dernier-evenement.jpg"
+                imageSrc="/historique/dernier-evenement.webp"
               />
             </Step>
           </Stepper>
@@ -135,7 +132,7 @@ const Historic = () => {
             <div
               className="absolute inset-0 w-full h-full bg-cover bg-center"
               style={{
-                backgroundImage: `url('/historique/champs-ukraine.jpg')`,
+                backgroundImage: `url('/historique/champs-ukraine.webp')`,
               }}
             ></div>
             <div className="absolute inset-0 bg-black/50"></div>
