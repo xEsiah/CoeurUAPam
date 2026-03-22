@@ -167,11 +167,11 @@ const Historic = () => {
         )}
       </AnimatedContent>
 
-      {/* <AnimatedContent distance={40} direction="vertical" threshold={0.2}>
+      <AnimatedContent distance={40} direction="vertical" threshold={0.2}>
         <div className="w-full">
           <FacebookCarousel />
         </div>
-      </AnimatedContent> */}
+      </AnimatedContent>
     </div>
   );
 };

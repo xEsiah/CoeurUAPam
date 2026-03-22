@@ -27,3 +27,6 @@ dist-ssr
 *.webp
 *.mp4
 *.jpg
+
+
+.env
