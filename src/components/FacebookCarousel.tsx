@@ -36,6 +36,30 @@ const mockPosts: FacebookPost[] = [
     imageSrc: "/historique/dernier-evenement.webp",
     link: "https://www.facebook.com",
   },
+  {
+    id: 4,
+    date: "Il y a 3 semaines",
+    content:
+      "Réunion très productive avec la mairie pour préparer l'année à venir. De beaux projets en perspective ! 🏛️🤝",
+    imageSrc: "/historique/signature-statuts.webp",
+    link: "https://www.facebook.com",
+  },
+  {
+    id: 5,
+    date: "Il y a 1 mois",
+    content:
+      "Collecte de vêtements chauds terminée. Merci à tous les donateurs, le camion part demain ! 🚛❄️",
+    imageSrc: "/historique/arrivee.webp",
+    link: "https://www.facebook.com",
+  },
+  {
+    id: 6,
+    date: "Il y a 1 mois",
+    content:
+      "Petit souvenir de notre stand au forum des associations. On a hâte de vous retrouver ! 👋",
+    imageSrc: "/hero-section/a-propos.webp",
+    link: "https://www.facebook.com",
+  },
 ];
 
 export default function FacebookCarousel() {

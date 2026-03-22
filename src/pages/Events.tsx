@@ -492,121 +492,128 @@ export default function Events() {
         },
       ],
     },
-
     // // ---------------------------------------------------------
-    // // 3. MARCHÉ DE NOËL
+    // // 3. COMMÉMORATIONS
     // // ---------------------------------------------------------
-    // {
-    //   id: "marche-noel",
-    //   title: "Marchés de Noël",
-    //   description:
-    //     "Retrouvez-nous sur nos stands lors des marchés de Noël locaux pour découvrir l'artisanat ukrainien, parfait pour des cadeaux originaux et solidaires.",
-    //   themeColor: "text-[#dfbe85]",
-    //   history: [
-    //     {
-    //       type: "intro",
-    //       year: "2022",
-    //       title: "Premier marché",
-    //       bg: "bg-white",
-    //       text: "text-[#1a247f]",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/marche-noel-2022-1.webp",
-    //       alt: "Installation du stand",
-    //     },
+    {
+      id: "commemorations",
+      title: "Anniversaire du conflit",
+      description:
+        "Le devoir de mémoire est essentiel. Nous nous rassemblons pour honorer les victimes du conflit et rappeler notre soutien indéfectible à l'Ukraine.",
+      themeColor: "text-gray-800",
+      history: [
+        {
+          type: "intro",
+          year: "2023",
+          title: "",
+          bg: "bg-gray-800",
+          text: "text-white",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2023commemoration-1.mp4",
+          alt: "Commemoration début du conflit - 2023",
+        },
+        {
+          type: "intro",
+          year: "2024",
+          title: "2 ans de résilience",
+          bg: "bg-gray-200",
+          text: "text-gray-900",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2024commemoration-1.webp",
+          alt: "Rassemblement sur la place",
+        },
+        {
+          type: "intro",
+          year: "2025",
+          title: "",
+          bg: "bg-gray-800",
+          text: "text-white",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2025commemoration-1.webp",
+          alt: "Commemoration début du conflit - 2025",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2025commemoration-4.webp",
+          alt: "Commemoration début du conflit - 2025",
+        },
 
-    //     {
-    //       type: "intro",
-    //       year: "2023",
-    //       title: "Nos bénévoles mobilisés",
-    //       bg: "bg-[#dfbe85]",
-    //       text: "text-white",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/marche-noel-2023-1.webp",
-    //       alt: "Bénévoles au stand",
-    //     },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2025commemoration-3.webp",
+          alt: "Commemoration début du conflit - 2025",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2025commemoration-2.webp",
+          alt: "Commemoration début du conflit - 2025",
+        },
 
-    //     {
-    //       type: "intro",
-    //       year: "2024",
-    //       title: "Succès solidaire",
-    //       bg: "bg-[#1a247f]",
-    //       text: "text-white",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/marche-noel-2024-1.webp",
-    //       alt: "Créations faites main",
-    //     },
+        {
+          type: "intro",
+          year: "2026",
+          title: "",
+          bg: "bg-gray-800",
+          text: "text-white",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2026commemoration-1.webp",
+          alt: "Commemoration début du conflit - 2026",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2026commemoration-1.webp",
+          alt: "Commemoration début du conflit - 2026",
+        },
 
-    //     {
-    //       type: "intro",
-    //       year: "2025",
-    //       title: "L'artisanat à l'honneur",
-    //       bg: "bg-[#dfbe85]",
-    //       text: "text-white",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/marche-noel-2025-1.webp",
-    //       alt: "Stand 2025",
-    //     },
-    //   ],
-    // },
-
+        {
+          type: "image",
+          src: "/evenements/commemoration/2026commemoration-3.webp",
+          alt: "Commemoration début du conflit - 2026",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2026commemoration-4.webp",
+          alt: "Commemoration début du conflit - 2026",
+        },
+        {
+          type: "image",
+          src: "/evenements/commemoration/2026commemoration-2.webp",
+          alt: "Commemoration début du conflit - 2026",
+        },
+      ],
+    },
     // // ---------------------------------------------------------
-    // // 4. COMMÉMORATIONS
+    // // 4. MARCHÉ DE NOËL
     // // ---------------------------------------------------------
-    // {
-    //   id: "commemorations",
-    //   title: "Commémorations",
-    //   description:
-    //     "Le devoir de mémoire est essentiel. Nous nous rassemblons pour honorer les victimes du conflit et rappeler notre soutien indéfectible à l'Ukraine.",
-    //   themeColor: "text-gray-800",
-    //   history: [
-    //     {
-    //       type: "intro",
-    //       year: "2023",
-    //       title: "1 an de conflit",
-    //       bg: "bg-gray-800",
-    //       text: "text-white",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/commemoration-2023-1.webp",
-    //       alt: "Minute de silence",
-    //     },
-
-    //     {
-    //       type: "intro",
-    //       year: "2024",
-    //       title: "2 ans de résilience",
-    //       bg: "bg-gray-200",
-    //       text: "text-gray-900",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/commemoration-2024-1.webp",
-    //       alt: "Rassemblement sur la place",
-    //     },
-
-    //     {
-    //       type: "intro",
-    //       year: "2025",
-    //       title: "Ne jamais oublier",
-    //       bg: "bg-gray-800",
-    //       text: "text-white",
-    //     },
-    //     {
-    //       type: "image",
-    //       src: "/evenements/commemoration-2025-1.webp",
-    //       alt: "Commémoration 2025",
-    //     },
-    //   ],
-    // },
+    {
+      id: "marche-noel",
+      title: "Marchés de Noël",
+      description:
+        "Retrouvez-nous sur nos stands lors des marchés de Noël locaux pour découvrir l'artisanat ukrainien, parfait pour des cadeaux originaux et solidaires.",
+      themeColor: "text-[#dfbe85]",
+      history: [
+        {
+          type: "intro",
+          year: "2025",
+          title: "Premier marché de Noël",
+          bg: "bg-white",
+          text: "text-[#1a247f]",
+        },
+        {
+          type: "image",
+          src: "/evenements/marche-noel/2025marche-noel-1.webp",
+          alt: "Premier marché de Noël de Coeur-UA-PAM en 2025",
+        },
+      ],
+    },
 
     // // ---------------------------------------------------------
     // // 5. AUTRES ÉVÉNEMENTS

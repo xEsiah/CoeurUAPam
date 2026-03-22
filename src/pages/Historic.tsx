@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AnimatedContent from "../components/AnimatedContent";
 import Stepper, { Step } from "../components/Stepper";
-// import FacebookCarousel from "../components/FacebookCarousel";
+import FacebookCarousel from "../components/FacebookCarousel";
 
 const StepWithBackground = ({
   date,

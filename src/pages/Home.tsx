@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import AnimatedContent from "../components/AnimatedContent";
+import CountUp from "../components/ContUp";
 
 const Home = () => {
   return (
@@ -53,7 +54,7 @@ const Home = () => {
             delay={0.2}
             className="h-full"
           >
-            <Link to="/historique" className="block h-full group">
+            <Link to="/notre-histoire" className="block h-full group">
               <div className="relative h-full min-h-100 bg-bg-2  p-10 flex flex-col justify-between overflow-hidden transition-all hover:shadow-xl hover:-translate-y-1">
                 <div className="z-10">
                   <span className="inline-block px-4 py-1 rounded-full border border-heading text-heading text-xs font-bold uppercase tracking-widest mb-4">
@@ -136,17 +137,29 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative z-10">
             <div>
-              <span className="block text-6xl md:text-7xl font-bold text-hover-nav mb-2">
-                50+
-              </span>
+              <CountUp
+                from={0}
+                to={19}
+                delay={0.5}
+                separator=","
+                direction="up"
+                duration={1.5}
+                className="count-up-text block text-6xl md:text-7xl font-bold text-hover-nav mb-2"
+              />
               <span className="text-lg uppercase tracking-widest opacity-80">
                 Bénévoles Actifs
               </span>
             </div>
             <div>
-              <span className="block text-6xl md:text-7xl font-bold text-hover-nav mb-2">
-                100s
-              </span>
+              <CountUp
+                from={0}
+                to={12}
+                delay={0.5}
+                separator="."
+                direction="up"
+                duration={1}
+                className="count-up-text block text-6xl md:text-7xl font-bold text-hover-nav mb-2"
+              />
               <span className="text-lg uppercase tracking-widest opacity-80">
                 Colis Envoyés
               </span>

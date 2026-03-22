@@ -5,10 +5,12 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Historic from "./pages/Historic";
 import Privacy from "./pages/Privacy";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route path="/" element={<Home />} />
