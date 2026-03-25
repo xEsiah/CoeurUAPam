@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 import AnimatedContent from "../components/AnimatedContent";
 import CountUp from "../components/ContUp";
+import SEO from "../components/SEO";
 
 const Home = () => {
   return (
     <div className="w-full pb-20">
+      <SEO
+        title="Accueil"
+        description="Association franco-ukrainienne Cœur UA PAM à Pont-à-Mousson. Soutien humanitaire, aide aux réfugiés et promotion de la culture ukrainienne."
+        url="/"
+      />
       <AnimatedContent distance={60} direction="vertical" duration={1}>
         <div className="relative w-full h-[80vh] min-h-150  overflow-hidden mb-12 shadow-2xl group">
           <img

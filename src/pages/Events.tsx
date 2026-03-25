@@ -1,5 +1,6 @@
 import { useLayoutEffect, useRef, useState, useCallback } from "react";
 import AnimatedContent from "../components/AnimatedContent";
+import SEO from "../components/SEO";
 
 // --- INTERFACES TYPESCRIPT ---
 interface EventIntro {
@@ -693,6 +694,11 @@ export default function Events() {
 
   return (
     <div className="w-full max-w-[100vw] overflow-x-clip pb-20 flex flex-col gap-16 md:gap-24 bg-bg-1">
+      <SEO
+        title="Nos Événements"
+        description="Retrouvez l'historique de nos mobilisations : Octobre Rose, Marchés de Noël, repas solidaires et commémorations."
+        url="/evenements"
+      />
       <AnimatedContent distance={60} direction="vertical" duration={1}>
         <div className="relative w-full h-[80vh] min-h-125 overflow-hidden shadow-2xl group">
           <img

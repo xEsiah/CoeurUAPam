@@ -2,6 +2,7 @@ import { useState } from "react";
 import AnimatedContent from "../components/AnimatedContent";
 import Stepper, { Step } from "../components/Stepper";
 import FacebookCarousel from "../components/FacebookCarousel";
+import SEO from "../components/SEO";
 
 const StepWithBackground = ({
   date,
@@ -42,6 +43,11 @@ const Historic = () => {
 
   return (
     <div className="w-full pb-20 flex flex-col gap-16 md:gap-24">
+      <SEO
+        title="Notre Histoire"
+        description="De l'urgence de mars 2022 à la création officielle de l'association. Découvrez le parcours de solidarité de Cœur UA PAM."
+        url="/notre-histoire"
+      />
       <AnimatedContent distance={60} direction="vertical" duration={1}>
         <div className="relative w-full h-[80vh] min-h-125 overflow-hidden shadow-2xl group">
           <img

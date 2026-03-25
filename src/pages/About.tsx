@@ -1,8 +1,14 @@
 import AnimatedContent from "../components/AnimatedContent";
+import SEO from "../components/SEO";
 
 const About = () => {
   return (
     <div className="w-full pb-20 flex flex-col gap-16 md:gap-24">
+      <SEO
+        title="L'Association"
+        description="Découvrez les missions de Cœur UA PAM : Solidarité, Culture et Entraide. Nos actions pour l'intégration et le soutien logistique en Ukraine."
+        url="/a-propos"
+      />
       <AnimatedContent distance={60} direction="vertical" duration={1}>
         <div className="relative w-full h-[80vh] min-h-125 overflow-hidden shadow-2xl group">
           <img
